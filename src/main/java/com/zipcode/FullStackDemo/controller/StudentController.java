@@ -1,9 +1,10 @@
-package controller;
+package com.zipcode.FullStackDemo.controller;
 
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.List;
 
+import com.repository.StudentRepo;
 import com.zipcode.FullStackDemo.entity.Student;
 
 import org.slf4j.Logger;
@@ -17,8 +18,6 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-import repository.StudentRepo;
 
 @RestController
 @RequestMapping("/students")

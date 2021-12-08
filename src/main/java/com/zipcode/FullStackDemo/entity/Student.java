@@ -1,4 +1,4 @@
-package com.zipcode.FullStackDemo.entity;
+package com.zipcode.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
