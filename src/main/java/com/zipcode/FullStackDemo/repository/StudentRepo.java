@@ -1,6 +1,6 @@
-package com.zipcode.repository;
+package com.zipcode.FullStackDemo.repository;
 
-import com.zipcode.entity.Student;
+import com.zipcode.FullStackDemo.entity.Student;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

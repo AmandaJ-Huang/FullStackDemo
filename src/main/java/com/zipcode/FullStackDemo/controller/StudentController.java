@@ -4,8 +4,9 @@ import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.List;
 
-import com.repository.StudentRepo;
+
 import com.zipcode.FullStackDemo.entity.Student;
+import com.zipcode.FullStackDemo.repository.StudentRepo;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
