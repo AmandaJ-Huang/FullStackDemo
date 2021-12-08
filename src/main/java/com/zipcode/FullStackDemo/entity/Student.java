@@ -58,4 +58,15 @@ public class Student {
     public void setCohort(String cohort) {
         this.cohort = cohort;
     }
+
+    @Override
+    public String toString() {
+        return "{" +
+            " id='" + getId() + "'" +
+            ", firstName='" + getFirstName() + "'" +
+            ", lastName='" + getLastName() + "'" +
+            ", cohort='" + getCohort() + "'" +
+            "}";
+    }
+
 }
